@@ -1,0 +1,8 @@
+arch: 
+  - amd64
+  - ppc64le
+language: java
+os: linux
+jdk: openjdk11
+script:
+  - mvn release:prepare -DdryRun
